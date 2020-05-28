@@ -7,5 +7,5 @@ Did you not get a link to the exact documentation path that you needed to look a
 | Project | Description | Docs Link | Downloadable? | Language |
 | --- | --- | --- | --- | --- |
 | QEtils | A library of utilities for QE School | [QEtils Docs](https://lib-nexus.github.io/site/docs/QEtils) | Yes | Python |
-| LocalChat | A simple chat program made to be run across a LAN | [None](https://lib-nexus.github.io/site/notexist) | Not currently | C# |
-| AdvText | A text editor made specifically for students, inspired by my need for a good portable text editor | [None](https://lib-nexus.github.io/site/notexist) | Note currently | C# |
+| LocalChat | A simple chat program made to be run across a LAN | [None](https://lib-nexus.github.io/site/docs/notexist) | Not currently | C# |
+| AdvText | A text editor made specifically for students, inspired by my need for a good portable text editor | [None](https://lib-nexus.github.io/site/docs/notexist) | Note currently | C# |
