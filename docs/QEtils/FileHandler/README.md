@@ -84,12 +84,37 @@ for index, EachLine in enumerate(MyFile.Read(ReturnType=list, Separator="\n")): 
 MyFile.Delete() #We've had our fun and no longer need the file so we can remove it
 ```
 ---
-## FileHandlerClass
+## FileHandler
+
+### `FileHandler(File="Temp.tmp", Path="Files/Temps/")
+- Takes 2 arguments
+  - File: This argument takes a string which is to be the name of the actual file that is to be opened, No default value
+  - Path: This arguments takes a string which is to be the path in which the file is to be Created/Edited/Deleted etc, Default value is `""`, ignored for directory of file which is being run
+` Creates an instance of the FileHandler class with the correct attributes
 
 ### `Create()`
-
+- Takes no arguments
+- Creates the file if following condition/s are met
+  - The file does not already exist
+  - The file path is able to be created
+  
 ### `Delete()`
-
+- Takes no arguments
+- Deletes the file if following condition/s are met
+  - The file already exists
+  - The path to the file is valid
+  
 ### `Write(String="2 String", Prefix="1 String ", Suffix=" 3 String", Overwrite=True)`
-
+- Takes 4 arguments
+  - String: This argument takes a string and allows you to set the middle string that will be written to the file, No default value
+  - Prefix: This argument takes a string and allows you to set the left most string that will be written to the file, No default value
+  - Suffix: This argument takes a string and  allows you to set the right most string that will be written to the filem Default value is `\n`
+  - OverWrite: This argument takes a boolean and allows you to tell the method whether or not to overwrite any existing text in the file, Default value is `False`
+- Writes the 3 former arguments to the file, using the `OverWrite` variable to decide whether or not to remove everything from the file first
+  
 ### `Read(ReturnType=dict, Separator="\n", Discriminator="LineOfIndex")`
+- Takes 3 arguments
+  - ReturnType: This argument takes a type from `[str, list, dict]` and allows you to choose what type of return value the method will have, Default value is `str`
+  - Separator: This argument takes a string and allows you to choose for both the `dict` and `list` types what will be used to separate them into their iterable forms, Default value is `""`, ignored
+  - Discriminator: This argument takes a string and allows you to choose what the prefix will be for the `dict` type return value, Default value is `""`, ignored
+- Returns a variable of type based on the ReturnType wanted using the `Separator` and `Discriminator` variables as explained above 
