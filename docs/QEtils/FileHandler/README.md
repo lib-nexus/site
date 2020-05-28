@@ -1,9 +1,8 @@
 ## The FileHandler docs
 
 ### Useful Links
-- [Tutorial]
-- [FileHandlerClass]
-- [Creating a copy]
+- [Tutorial](#Tutorial)
+- [FileHandlerClass](#FileHandlerClass)
 
 Here you will find (hopefully) all the information you're looking for when tring to use the FileHandler class from QEtils, in the event that it does not however have all information you need, please consult a Teacher or any other Mentioned Contributors of the Project. They can be found either on the web-page or by using the following code.
 ```python 
