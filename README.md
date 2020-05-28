@@ -1,8 +1,6 @@
-[Docs](https://lib-nexus.github.io/site/docs) [Blog](https://www.youtube.com/watch?v=dQw4w9WgXcQ) [My Media](https://lib-nexus.github.io/my/media) [My Projects](https://lib-nexus.github.io/my/projects)
+## [Docs](https://lib-nexus.github.io/site/docs) | [Blog](https://www.youtube.com/watch?v=dQw4w9WgXcQ) | [My Media](https://lib-nexus.github.io/my/media) | [My Projects](https://lib-nexus.github.io/my/projects)
 
 ***
-
-## Welcome to the site
 
 ### It occurs to me that there are very few reasons why someone might find themselves at this site. So please, allow me to help.
 
