@@ -14,3 +14,6 @@ Because of it being a library comprised of different modules, the modules below 
 | SimpleServer | A pre-made web server class that allows you to take web requests and handle giving information back, not too much configurablity but stil helpful | 10+ | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/SimpleServer) | No |
 | THUD | Modules that adds a little mischief, none are dangerous enough to cause any real damage however | 11 | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/THUD) | No |
 | APWhy | A collection of modules deliberately made to be hard to work with, meant to test whoever's using them's ability to look at documentation carefully and work with what information they have, showing skills in logical thinking and adaptation | 12+ | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/APWhy)
+
+### [Download from PyPi](https://pypi.org/project/QEtils/)
+### Likewise use the command either `pip install QEtils` or `python -m pip install QEtils`
