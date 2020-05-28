@@ -3,6 +3,7 @@
 ## My Media Profiles
 
 ### You can find me @ 
+- LinkedIn using: [This link](https://www.linkedin.com/in/shaun-cameron-4abba31aa/)
 - Discord using: 'Shaun 💬#0911'
 - Reddit using: [This link](https://www.reddit.com/u/libnexus)
 - Spotify using: [This link](https://open.spotify.com/user/dvfvy2vo2ofkxcepmicr01vof)
