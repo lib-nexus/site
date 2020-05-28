@@ -9,6 +9,7 @@ Because of it being a library comprised of different modules, the modules below 
 | HelloWorld | A simple HelloWorld class meant to teach the basics of handling a string | 7 | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/HelloWorld) | Yes |
 | Formatting | The ability to import colours to spice up the way your console looks! | 8+ | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/Formatting) | Yes |
 | FileHandler | A class meant to make handling files easier when it comes to it | 9+ | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/FileHandler) | Yes |
+| BetterVar | Modules for instances of better variables | 9+ | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/BetterVar) | Yes |
 | Sherlock | A few modules for the use/teachings for the basics of cybersecurity and other logical thinking, including regex, caeser cipher, etc | 9+ | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/Sherlock) | No |
 | SimpleServer | A pre-made web server class that allows you to take web requests and handle giving information back, not too much configurablity but stil helpful | 10+ | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/SimpleServer) | No |
 | THUD | Modules that adds a little mischief, none are dangerous enough to cause any real damage however | 11 | [Docs Link](https://lib-nexus.github.io/site/docs/QEtils/THUD) | No |
