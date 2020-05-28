@@ -86,11 +86,11 @@ MyFile.Delete() #We've had our fun and no longer need the file so we can remove 
 ---
 ## FileHandler
 
-### `FileHandler(File="Temp.tmp", Path="Files/Temps/")
+### `FileHandler(File="Temp.tmp", Path="Files/Temps/")`
 - Takes 2 arguments
   - File: This argument takes a string which is to be the name of the actual file that is to be opened, No default value
   - Path: This arguments takes a string which is to be the path in which the file is to be Created/Edited/Deleted etc, Default value is `""`, ignored for directory of file which is being run
-` Creates an instance of the FileHandler class with the correct attributes
+- Creates an instance of the FileHandler class with the correct attributes
 
 ### `Create()`
 - Takes no arguments
