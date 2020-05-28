@@ -2,7 +2,7 @@
 
 ### Useful Links
 - [Tutorial]
-- [Methods]
+- [FileHandlerClass]
 - [Creating a copy]
 
 Here you will find (hopefully) all the information you're looking for when tring to use the FileHandler class from QEtils, in the event that it does not however have all information you need, please consult a Teacher or any other Mentioned Contributors of the Project. They can be found either on the web-page or by using the following code.
@@ -71,5 +71,26 @@ Now that we've done all we can with our file, we can remove it because we no lon
 myfile.Delete()
 ```
 
-Once you're finished, you might have some code that looks a little like this
+Once you're finished, you can have a play around with what you know already and then you might have some code that looks a little like this
 ```python
+from QEtils import FileHandler as FH #Import the FileHandler
+
+MyFile = FH(File=input("What would you like your file to be called?")) #Create an instance
+
+[MyFile.Write(input("Let's add something to that file!"), Suffix="\n") for x in range(9)] #Ask for 10 things to add to the file
+
+for index, EachLine in enumerate(MyFile.Read(ReturnType=list, Separator="\n")): #Loop each item in the list returned by Read
+  print(f"Line {index} says: '{EachLine}'") #Print it out with an f string
+  
+MyFile.Delete() #We've had our fun and no longer need the file so we can remove it
+```
+---
+## FileHandlerClass
+
+### `Create()`
+
+### `Delete()`
+
+### `Write(String="2 String", Prefix="1 String ", Suffix=" 3 String", Overwrite=True)`
+
+### `Read(ReturnType=dict, Separator="\n", Discriminator="LineOfIndex")`
