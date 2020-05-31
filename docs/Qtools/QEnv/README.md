@@ -9,7 +9,10 @@ class HelloWorldCommand(EnvironCommand):
 
     def DoCommand(self, ctx):
 
-        ctx.print()
+        Args = ctx.Args(list)
+        ArgsRaw = ctx.ArgsRaw(list)
+        
+        ctx.print('Hello World')
 
 class MyEnvironment(Q.Environment):
 
