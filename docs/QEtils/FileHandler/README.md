@@ -62,12 +62,14 @@ Now that we've created our file and we know that it exists, we can do some readi
 myfile.Write("Hello World")
 ```
 Now that we've written to the file, if you wanted to make sure that the string is in there, we could do one of two things. We could either open up the text file to see for ourself or we could use another method of FileHandler called `Read()`.
+```python
 WhatsInourFile = myfile.Read(ReturnType=str)
 print(WhatsInourFile)
 ```
 In the `Read()` method, i have specified an argument called `ReturnType`. As of v0.13, QEtils doesn't have ReturnType with a default value and so we must tell it what type of value we want it to give us.
 
 Now that we've done all we can with our file, we can remove it because we no longer need it for this example, let's call the following method
+
 ```python
 myfile.Delete()
 ```
