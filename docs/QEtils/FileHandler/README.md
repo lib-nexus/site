@@ -37,16 +37,16 @@ myfile.Create()
 Because myfile is an instance of FileHandler and FileHandler has the attribute create, myfile inherently has that attribute and therefore we can call it as a method! Let's see what went on here.
 Assuming that i am in the Documents folder this is what happened
 - Before `myfile.Create()`
-```yaml
+````yaml
 - Documents
   - main.py
-```
+````
 - After `myfile.Create()`
-```yaml
+````yaml
 - Documents
   - main.py
   - ThisThing.txt
-```
+````
 This has happened because `myfile.Create()` uses the filename we've given it in the variable `File` as a string to create the file! Because in the source code it uses the `open()` built-in function so if the file isn't there, it is created, however if it is already there it will give you an error because you tried to create a file that already exists!
 
 Following this, on the topic of the file existing, we can use the method `myfile.Exists()` to get a boolean (True or False) value returned to us based on whether or not the filename of the Path we've given it exists! We can even put it in an `if` statement (since it checks for a boolean value) to print out something special.
