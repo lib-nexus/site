@@ -66,6 +66,7 @@ elif Match := MyString.RegMatch('([a-F]+)')[1]:
 I'm afraid that since it's not like an environment, there's not much that can be taught in a tutorial which won't come easy to someone for this module so check out the BetterString 'practical' docs down below and start programming!
 
 ## BetterString
+Note: Instead of choosing to use the format `def Foo(Astring: str, Abool: bool)` in my functions, i have decided to make a custom error message however this isn't always practical so wherever it applies, use the above syntax to make sure the variable value is the wanted one as opposed to how i do it.
 
 ### `BetterString(String='Astring')`
 
@@ -75,16 +76,8 @@ I'm afraid that since it's not like an environment, there's not much that can be
 ### `BetterString.RegMatch(String='Astring')`
 
 ### `BetterString.Len() \ BetterString.Len`
-- STATUS: Not Available
 
 ### `BetterString.WriteTo(File='Afile.txt')`
-- STATUS: Not Available
-
-### `BetterString.FindFile(Path='')
-- STATUS: Not Available
-
-### `BetterString.FindPath(Path='')`
-- STATUS: Not Available
 
 
 ### `BetterString.Shift(Set=True, Return=False, Points=10)`
