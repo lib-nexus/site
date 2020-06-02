@@ -69,20 +69,48 @@ I'm afraid that since it's not like an environment, there's not much that can be
 Note: Instead of choosing to use the format `def Foo(Astring: str, Abool: bool)` in my functions, i have decided to make a custom error message however this isn't always practical so wherever it applies, use the above syntax to make sure the variable value is the wanted one as opposed to how i do it.
 
 ### `BetterString(String='Astring')`
-
+- Takes 1 argument
+    - String: Defines the base/Starting value
+- Creates an instance of the BetterString class for use creating a better string
+- Returns `object`
 
 ### `BetterString.Endswith(String='Astring')`
+- Takes 1 argument
+    - String: This string is what will be used to check if something exists at the end of the betterstring value, No default value
+- Using the parameter `String`, the method checks if String exists at the end of the variable's value. This was made because of python's lack of a `.endswith()` in terms of built-in functions
+- Returns `boolean`
 
-### `BetterString.RegMatch(String='Astring')`
-
+### `BetterString.RegMatch(MatchString='Astring', Warn=False)`
+- Takes 2 arguments
+    - MatchString: This paramater is what will be used for the r string in terms of finding out if the variable's value matches a certain regex, No default value
+    - Warn: This decides whether or not to send a warning in the event that the python version of the module implementing this feature does not support the walrus operator, Default value is `True`
+- Returns `tuple`:`boolean`, `string`/`None`
+    
 ### `BetterString.Len() \ BetterString.Len`
+- Takes no arguments
+- This will get the current length of the variable's value
+- Returns `String`
 
-### `BetterString.WriteTo(File='Afile.txt')`
+### `BetterString.WriteTo(File='Afile.txt', Mode='w')`
+- Takes 2 arguments
+    - File: This parameter isn't confined to a filename but a path, this is the path it takes to get to the file it writes to, No default value
+    - Mode: This parameter chooses the mode which it will use to open the file, it only however takes the file writing protocols of `a`, `a+`, `w`, `w+`, Default value is `w`
+- Returns `None`
+- This method will take the value of the string variable
 
-
-### `BetterString.Shift(Set=True, Return=False, Points=10)`
+### `BetterString.Shift(Points=0, ReverseDir=False, Set=False, Return=True)`
+- Takes 4 arguments
+    - Points: This is the amount of characters that the string will be shifted by. It does not take any negative number, Default value is `0`
+    - ReverseDir: This is the direction in which it is shifted, instead of attempting to use a negative value, use this, it takes a `Boolean`, Default value is `False`
+    - Set: This decides whether or not to set the betterstring's current value to the outcome of the shift, takes a `Boolean`, Default value is `False`
+    - Return: This decides whether or not the method returns something. Takes a `Boolean`, Default value is `True`
+- This will shift the string value of the betterstring variable
 
 ### `BetterString.Shuffle(Set=True, Return=False)`
+- Takes 2 arguments
+    - Set: Decides whether or not to set the variable's current value to the outcome of the method, Default value is `True`
+    - Return: Decides whether or not to Return the outcome of the method, Default value is `False`
+- This shuffles the characters in the string to jump them up
 
 ### `BetterString.Destroy()`
 - STATUS: Not Available
