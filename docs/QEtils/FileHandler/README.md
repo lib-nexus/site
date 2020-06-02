@@ -1,4 +1,4 @@
-## [Home](http://lib-nexus.github.io/site) | [Docs](https://lib-nexus.github.io/site/docs) | [Blog](https://www.youtube.com/watch?v=dQw4w9WgXcQ) | [My Media](https://lib-nexus.github.io/site/my/media) | [My Projects](https://lib-nexus.github.io/site/my/projects)
+## [Home](http://lib-nexus.github.io/site) | [Docs](https://lib-nexus.github.io/site/docs) | [Blog](https://www.youtube.com/watch?v=dQw4w9WgXcQ) | [My Media](https://lib-nexus.github.io/site/my/media) | [My Projects](https://lib-nexus.github.io/site/my/projects) | [Tutorials](https://lib-nexus.github.io/site/my/tutorials)
 
 ## The FileHandler docs
 
