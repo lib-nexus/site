@@ -112,17 +112,27 @@ Note: Instead of choosing to use the format `def Foo(Astring: str, Abool: bool)`
     - Return: Decides whether or not to Return the outcome of the method, Default value is `False`
 - This shuffles the characters in the string to jump them up
 
+### `BetterString.Change(String)`
+- Takes 1 argument
+    - String: This is the string that the variable's value will be change to, it asserts it as the new string value, No default value
+- Changes the value of the betterstring object to the String parameter
+
 ### `BetterString.Destroy()`
-- STATUS: Not Available
+- Takes no arguments
+- This simply sets the value of the variable to a `NoneType` object
 
 ### `BetterString.Caeser()`
-- STATUS: Not Available
+- STATUS: Not Available `Uses sherlock module`
 
-### `BetterString.Warp(Chance=0.001)`
-- STATUS: Not Available
+### `BetterString.Warp(Lowerbound, Upperbound=100)`
+- Takes 2 arguments
+    - Lowerbound: The lowerbound for calculating the chance that the string will warp, No default value
+    - Upperbound: The upperbound for calculating the chance that the string will warp, Default value is 100
+- Using the chance parameter, this method will shuffle it's contents if the integer between the Upper and Lower bounds is the lower bound, it will change the string
 
 ### `BetterString.Yeltsakcir()`
-- STATUS: Not Available
+- Takes no arguments
+- This is a joke method, it will change your variable's value
 
 ### `Bettertring.CMD()`
 - STATUS: Not Available
