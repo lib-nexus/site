@@ -1,4 +1,4 @@
-## [Home](http://libnexus.github.io/Site) | [Docs](https://libnexus.github.io/Site/docs) | [Blog](https://www.youtube.com/watch?v=dQw4w9WgXcQ) | [Tutorials](https://libnexus.github.io/Site/tutorials) | [A-Level](https://libnexus.github.io/Site/a-level) | [Contact](https://libnexus.github.io/Site/contact) | [Résumé](https://libnexus.github.io/Site/résumé)
+## [Home](http://libnexus.github.io/site) | [Docs](https://libnexus.github.io/site/docs) | [Blog](https://www.youtube.com/watch?v=dQw4w9WgXcQ) | [Tutorials](https://libnexus.github.io/site/tutorials) | [A-Level](https://libnexus.github.io/site/a-level) | [Contact](https://libnexus.github.io/site/contact) | [Résumé](https://libnexus.github.io/site/résumé)
 
 QEtils are utilities that are meant to either aid the learning of python at my school or provide help to more easily do things. This is something that i came up with on my endless quest to find something that i actually want to dedicate some of my time to and not give up on half way through finishing.
 
