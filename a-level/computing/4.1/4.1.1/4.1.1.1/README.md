@@ -25,7 +25,7 @@
 | Pointer | The address where data is stored ( the variable ) as opposed to the data itself | `0x12938193` | `0x19238123` | pointer/reference |
 | Dictionary | A data type that stores information data in a formatted data structure | `{ "Q" : { "Programmer": True, "Sixth Former": True } }` | `{ "ResponseType": "Success" }` | record/dict/hash |
 | Array | A data type that stores information in a structure, languages like Java, C# and C++ require these arrays to be typed | `["Beep Beep", "I'm a sheep"]` | `{'a', 'b', 'c'}` | array/list |
-| User defined Data Type | These are data structures that categorise information mostly based on lang defined data types | `class StaticStruct { public static string AString { get; set; } } | class/struct/interface |
+| User defined Data Type | These are data structures that categorise information mostly based on lang defined data types | `class StaticStruct { public static string AString { get; set; } } | class/struct/interface | 
 
 ### How a pointer works
 
