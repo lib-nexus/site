@@ -11,7 +11,7 @@
 > Use nested selection and nested iteration structures
 > Use meaningful identifier names and know why it is important to use them
 
-## Statement types
+## Programming concepts
 
 In programming languages, all statements can be used in combination to create a functional program. However, the scope does matter when deciding how to use these in conjunction with one another. For example, the following static method written in typescript displays all of this properly in use
 
