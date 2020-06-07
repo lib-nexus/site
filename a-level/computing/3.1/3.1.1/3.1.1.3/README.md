@@ -37,5 +37,5 @@ The subroutine for rounding is the standard `round()` function. Rounding is the 
 ```python
 def truncate(val: float) -> int:
 
-    return int(str(val).split('.')[0]) #We've turned the float into a string and then split that string by the decimal place. We've taken the first array item from that new list and turned it into a string
+    return int(str(val).split('.')[0]) #We've turned the float into a string and then split that string by the decimal place. We've taken the first array item from that new list and turned it into an integer
 ```
